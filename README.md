@@ -1,16 +1,24 @@
-# destini_app
+# Destini App
 
-A new Flutter project.
+Project ini berisi tentang aplikasi Destini yang menampilkan sebuah jalan cerita yang bisa dipilih oleh penggunanya, dan setiap pilihan mempunyai keputusan yang berbeda.
 
-## Getting Started
+## Jalankan aplikasi
 
-This project is a starting point for a Flutter application.
+```
+$ flutter pub upgrade
+$ flutter pub get
+$ flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Penjelasan
+- Fungsi `main()` untuk menjalankan aplikasi
+- Mempunyai 3 file yaitu `main.dart`, `story.dart`, `story_brain.dart`
+- Menggunakan widget `DestiniApp` untuk mengatur tema gelap dan halama utama
+- Class `StoryPage` untuk menampilkan cerita dan pilihan
+- Objek `StoryBrain` untuk mengambil cerita
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot
+
+<img src="https://github.com/user-attachments/assets/39930b4a-2e6e-47ba-b607-6ce5bc8f59e9" width="300">
+
